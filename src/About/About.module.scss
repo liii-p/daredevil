@@ -1,0 +1,59 @@
+.About {
+  font-family: "Cormorant SC", serif;
+  color: white;
+  height: 100vh;
+  background-image: linear-gradient(
+    rgb(226, 16, 21),
+    rgb(214, 18, 22),
+    rgb(204, 22, 26)
+  );
+
+  &__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__icon {
+    height: 100px;
+    width: 100px;
+  }
+
+  &__title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+
+    // h1 {
+    //   width: 100%;
+    //   font-size: 100px;
+    //   display: flex;
+    //   justify-content: center;
+    // }
+
+    // h3 {
+    //   display: flex;
+    //   justify-content: center;
+    //   width: 100%;
+    //   font-size: 50px;
+    // }
+
+    p {
+      margin: 0 100px;
+      font-family: "Alumni Sans Pinstripe", sans-serif;
+      font-size: 30px;
+    }
+  }
+}
+
+// image links:
+// https://brobible.com/wp-content/uploads/2022/03/Fan-Reaction-To-Reports-That-Daredevil-Will-Begin-Filming-This-Year.png

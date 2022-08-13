@@ -1,0 +1,17 @@
+.Header {
+  font-family: "Cormorant SC", serif;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(226, 16, 21);
+  height: 60px;
+  display: flex;
+  padding-top: 20px;
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
