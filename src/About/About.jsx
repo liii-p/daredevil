@@ -5,10 +5,10 @@ import { IoIosGlasses } from "react-icons/io";
 const About = () => {
   return (
     <div className={styles.About}>
-      <div className={styles.About__title}>
+      <section className={styles.About__title}>
         <img
           src="https://wallpaper.dog/large/20529160.jpg"
-          alt="daredevil"
+          alt="daredevil promotional poster"
           className={styles.About__img}
         />
         <h1>Daredevil</h1>
@@ -22,11 +22,13 @@ const About = () => {
           the chemicals that spilled from the truck splashed onto Matt's eyes
           which rendered him blind. What seemed to be a horrible misfortune
           turned into a blessing though when he realised his hearing had become
-          far more sensitive than a regular human's hearing. After years of
-          training to fight, Matt Murdock took up the mantle of Daredevil to
-          inspire fear in enemies and hope in innocents.
+          far more sensitive than the regular person. Several years later, he
+          went to college to become a lawyer. Now, after years of training to
+          fight, Matt Murdock took up the mantle of Daredevil to inspire fear in
+          enemies and hope in innocents - he is attorney by day and Daredevil by
+          night.
         </p>
-      </div>
+      </section>
     </div>
   );
 };

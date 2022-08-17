@@ -1,0 +1,111 @@
+.History {
+  font-family: "Cormorant SC", serif;
+  background-color: white;
+  color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    height: fit-content;
+    font-size: 45px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  h3 {
+    height: fit-content;
+    font-size: 35px;
+    margin-left: 20px;
+  }
+
+  &__tvInfo {
+    display: flex;
+  }
+
+  &__tvInfo_profile {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Roboto Condensed", sans-serif;
+
+    h3 {
+      font-weight: 900;
+    }
+  }
+
+  &__img1 {
+    height: 100%;
+    width: auto;
+    justify-content: left;
+  }
+
+  // &__img2 {
+  //   display: flex;
+  //   flex-wrap: wrap;
+  // }
+
+  &__comicsVsTV {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    p {
+      font-family: "Alumni Sans Pinstripe", sans-serif;
+      font-size: 30px;
+      width: fit-content;
+      height: auto;
+      color: white;
+    }
+
+    h3 {
+      padding-top: 30px;
+      color: white;
+      text-shadow: 1px 1px black;
+      font-size: 40px;
+      width: 50rem;
+      margin: auto;
+    }
+  }
+
+  &__comics {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: "Cormorant SC", serif;
+    color: white;
+
+    h3 {
+      display: flex;
+      font-size: 35px;
+      flex-direction: column;
+      padding-left: 35px;
+    }
+  }
+
+  &__comics_img2 {
+    height: 50%;
+    width: auto;
+  }
+
+  &__comics_profile {
+    padding-top: 20rem;
+    font-size: 30px;
+    display: flex;
+  }
+
+  &__comics_profileText {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    h3 {
+      font-size: 45px;
+      height: fit-content;
+      margin: 0;
+      margin-left: 20px;
+      margin-top: 5rem;
+    }
+  }
+}
