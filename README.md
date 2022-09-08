@@ -1,6 +1,7 @@
 # Daredevil Project
 
-This is a passion project I have worked on in my free time, focussed on Marvel Studio's television show Daredevil.
+This is a passion (nerdy) project I am working on in my free time, focused on Marvel Studio's television show, Daredevil.
+My aim for this project is to improve my skills in react, learn new web design skills and just to make a fun website that is visually appealing for the user :)
 
 ## IDEAS AND DESIGN
 
