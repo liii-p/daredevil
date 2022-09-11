@@ -2,23 +2,31 @@ import styles from "./Associates.module.scss";
 
 const Associates = () => {
   return (
-    <div className={styles.Friends}>
+    <div className={styles.associates}>
       <h2>Daredevil and Associates</h2>
-      <h2>The Allies</h2>
-      <p>Franklin "Foggy" Nelson</p>
-      <p>Karen Page</p>
-      <p>Elektra</p>
-      <p>Stick</p>
-      <p>Jessica Jones</p>
-      <p>Luke Cage</p>
-      <p>Punisher</p>
-      <p>Black Widow (comics)</p>
-      <p>Spider-Man (comics)</p>
-      <h2>The Enemies</h2>
-      <p>Wilson Fisk AKA "Kingpin"</p>
-      <p>Punisher</p>
-      <p>The Hand</p>
-      <p>Benjamin Poindexer AKA Bullseye</p>
+      <section className={styles.associates__allies}>
+        <h2>The Allies</h2>
+        <ul>
+          <li>Franklin "Foggy" Nelson</li>
+          <li>Karen Page</li>
+          <li>Elektra</li>
+          <li>Stick</li>
+          <li>Jessica Jones</li>
+          <li>Luke Cage</li>
+          <li>Punisher</li>
+          <li>Black Widow (comics)</li>
+          <li>Spider-Man (comics)</li>
+        </ul>
+      </section>
+      <section className={styles.associates__enemies}>
+        <h2>The Enemies</h2>
+        <ul>
+          <li>Wilson Fisk AKA "Kingpin"</li>
+          <li>Punisher</li>
+          <li>The Hand</li>
+          <li>Benjamin Poindexer AKA Bullseye</li>
+        </ul>
+      </section>
     </div>
   );
 };

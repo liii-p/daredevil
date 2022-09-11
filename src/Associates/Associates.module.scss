@@ -1,3 +1,21 @@
-.Friends {
+.associates {
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  h2 {
+    width: 100%;
+    height: fit-content;
+  }
+
+  &__allies {
+    margin-right: 50px;
+    font-size: 25px;
+  }
+
+  &__enemies {
+    font-size: 25px;
+    margin-left: 50px;
+  }
 }
