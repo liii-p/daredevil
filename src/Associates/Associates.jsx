@@ -1,6 +1,9 @@
+import { useState } from "react";
 import styles from "./Associates.module.scss";
 
 const Associates = () => {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <div className={styles.associates}>
       <h2>Daredevil and Associates</h2>
