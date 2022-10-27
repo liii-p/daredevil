@@ -1,5 +1,6 @@
 import styles from "./History.module.scss";
 import tvProfile from "../Images/matt-profile.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const History = () => {
   return (
@@ -40,7 +41,7 @@ const History = () => {
       <section className={styles.History__comics}>
         <h3>Daredevil in Comics</h3>
         <div className={styles.History__comics_profile}>
-          <img
+          <LazyLoadImage
             src="https://img9.uhdpixel.com/wp/a/47/daredevil-marvel-comics-a4724-820x461.jpg?embed"
             alt="Daredevil Marvel Comics"
             className={styles.History__comics_img2}

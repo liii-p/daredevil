@@ -3,7 +3,7 @@ import Header from "./Header/Header";
 import About from "./About/About";
 import History from "./History/History";
 import Associates from "./Associates/Associates";
-import "./Assets/Fonts/fonts.css";
+import "./Assets/partials/fonts.css";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
