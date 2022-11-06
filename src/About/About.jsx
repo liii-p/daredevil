@@ -6,11 +6,6 @@ const About = () => {
   return (
     <div className={styles.About}>
       <section className={styles.About__title}>
-        {/* <img
-          src="https://wallpaper.dog/large/20529160.jpg"
-          alt="daredevil promotional poster"
-          className={styles.About__img}
-        /> */}
         <h1>Daredevil</h1>
         <IoIosGlasses className={styles.About__icon} />
         <h3>Justice is blind</h3>

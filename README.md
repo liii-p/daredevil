@@ -10,6 +10,8 @@ My aim for this project is to improve my skills in react, learn new web design s
 - Headline "JUSTICE IS BLIND" followed by Daredevil hero image
 - Interactive text on hover
 
+- Under associates, divide page into two sides and each side has an image and name of characters
+
 ### MICROINTERACTIONS
 
 The best way to retain a user's attention is through microinteractions which cause the webpage to react based on how the user interacts with it!

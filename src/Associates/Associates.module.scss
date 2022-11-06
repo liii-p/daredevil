@@ -12,12 +12,22 @@
   }
 
   &__allies {
-    margin-right: 50px;
+    // margin-right: 50px;
     font-size: 25px;
+    // text-align: left;
   }
 
   &__enemies {
     font-size: 25px;
-    margin-left: 50px;
+    // margin-left: 50px;
+    // text-align: right;
   }
+}
+
+.hidden1 {
+  display: none;
+}
+
+.foggy:hover + .hidden1 {
+  display: flex;
 }
