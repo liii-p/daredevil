@@ -6,11 +6,11 @@ My aim for this project is to improve my skills in react, learn new web design s
 ## IDEAS AND DESIGN
 
 - Parallax Scrolling (fancy scrolling to make it more visually engaging for the user.)
-- Daredevil's signature colour is red, so naturally I'm going to mainly use red for the colour scheme, with black as contrast.
-- Headline "JUSTICE IS BLIND" followed by Daredevil hero image
-- Interactive text on hover
+- Daredevil's signature colour is red, so naturally I'm going to mainly use red for the colour scheme, with black/white as contrast.
+- Headline "JUSTICE IS BLIND" with Daredevil hero image as background
+- Interactive text on hover (maybe)
 
-- Under associates, divide page into two sides and each side has an image and name of characters
+- Under associates, users can click on each character's name to display a modal containing more information about said character.
 
 ### MICROINTERACTIONS
 
@@ -18,26 +18,12 @@ The best way to retain a user's attention is through microinteractions which cau
 
 Fundamental microinteractions:
 
-- Tap effects
-- Swipe effects
-- Tap and hold effects
+- Tap effects (mobile)
+- Swipe effects (mobile)
+- Tap and hold effects (mobile)
 - Scroll-into-view
 - Pull-to-refresh
 - Progress bar
-- Errors
-- Sound
-- Button state changes
-- Tactile
-- Mouse over / hover effects
-- Slide-in/out
-- System feedback
-- Page transitions (fade, explode, etc.)
-
-Examples:
-
-- Facebook's react feature (animated emojis - tap and hold effect)
-- Mouse-over effects
-- Scroll into view (for my website - text fades in/out, images get larger and smaller, etc.)
 
 I do not want to drown my website in microinteractions, so I'm going to use them selectively.
 
@@ -45,3 +31,8 @@ I do not want to drown my website in microinteractions, so I'm going to use them
 
 - Add animations/micro-interactions
 - Add loading animation(s)
+
+## KNOWN ISSUES
+
+- Upon first loading the website, the home page image does not load and it requires a refresh in order to properly load. Must look into website optimisation.
+- When interacting with modal content, if the same modal component is used then all the modals will be loaded no matter which character is clicked. Need to investigate making them individually responsive.

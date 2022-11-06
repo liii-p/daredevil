@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./Modal.module.scss";
+// import "../Assets/partials/_fonts.scss";
 
 const Modal = (props) => {
-  if (!props.openModal) {
+  if (!props.show) {
     return null;
   }
 

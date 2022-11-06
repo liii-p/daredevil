@@ -8,55 +8,60 @@ const Associates = () => {
   return (
     <div className={styles.associates}>
       <h2>Daredevil and Associates</h2>
-      <section className={styles.associates__alpes}>
-        <h2>The Allies</h2>
+      <section className={styles.associates__allies}>
+        <h3>The Allies</h3>
 
         <div className={styles.foggy}>
-          <p>
-            <p onClick={() => setOpenModal(true)} onMouseOver="Cursor">
-              Franklin "Foggy" Nelson
-            </p>
-            <Modal
-              title="Foggy Nelson"
-              onClose={() => setOpenModal(false)}
-              openModal={openModal}
-            >
-              <p>This is about Foggy</p>
-            </Modal>
-          </p>
+          <p onClick={() => setOpenModal(true)}>Franklin "Foggy" Nelson</p>
+          <Modal
+            title="Foggy Nelson"
+            onClose={() => setOpenModal(false)}
+            openModal={openModal}
+          >
+            <img
+              src="https://sportshub.cbsistatic.com/i/2021/03/17/08a75f69-5e13-4de0-86c4-dc8904d7616c/foggy-nelson-daredevil-1150287.jpg"
+              width="100%"
+            />
+            <p>This is about Foggy</p>
+          </Modal>
         </div>
         <div>
-          <p>Karen Page</p>
+          {/* <p onClick={() => setOpenModal(true)}>Karen Page</p>
+          <Modal
+            title="Karen Page"
+            onClose={() => setOpenModal(false)}
+            openModal={openModal}
+          >
+            <p>This is about Karen Page.</p>
+          </Modal> */}
         </div>
         <div>
-          <p>Stick</p>
+          <p onClick={() => setOpenModal(true)}>Stick</p>
         </div>
         <div>
-          <p>Jessica Jones</p>
+          <p onClick={() => setOpenModal(true)}>Jessica Jones</p>
         </div>
         <div>
-          <p>Luke Cage</p>
+          <p onClick={() => setOpenModal(true)}>Luke Cage</p>
         </div>
         <div>
-          <p>Black Widow (comics)</p>
+          <p onClick={() => setOpenModal(true)}>Black Widow (comics)</p>
         </div>
         <div>
-          <p>Spider-Man (comics)</p>
+          <p onClick={() => setOpenModal(true)}>Spider-Man (comics)</p>
         </div>
       </section>
       <section className={styles.associates__enemies}>
-        <h2>The Enemies</h2>
-        <ul>
-          <p>Wilson Fisk AKA "Kingpin"</p>
-          <p>Punisher</p>
-          <p>The Hand</p>
-          <p>Benjamin Poindexer AKA Bullseye</p>
-          <p>Punisher</p>
-          <p>Elektra</p>
-          <p>Mr Fear</p>
-          <p>Typhoid Mary</p>
-          <p>Purple Man</p>
-        </ul>
+        <h3>The Enemies</h3>
+        <p>Wilson Fisk AKA "Kingpin"</p>
+        <p>Punisher</p>
+        <p>The Hand</p>
+        <p>Benjamin Poindexer AKA Bullseye</p>
+        <p>Punisher</p>
+        <p>Elektra</p>
+        <p>Mr Fear</p>
+        <p>Typhoid Mary</p>
+        <p>Purple Man</p>
       </section>
     </div>
   );
