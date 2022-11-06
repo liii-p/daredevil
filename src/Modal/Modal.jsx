@@ -7,15 +7,17 @@ const Modal = (props) => {
   }
 
   return (
-    <div className={styles.modal}>
-      <div className={styles.modalContent}>
+    <div className={styles.modal} onClick={props.onClose}>
+      <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
         <div className={styles.modalHeader}>
           <div className={styles.modalTitle}>
-            <h3>Title</h3>
+            <h2>{props.title}</h2>
           </div>
-          <div className={styles.modalContent}>Modal content here</div>
+          <div className={styles.modalBody}>{props.children}</div>
           <div className={styles.modalFooter}>
-            <button className={styles.button}>Close</button>
+            <button onClick={props.onClose} className={styles.button}>
+              Close
+            </button>
           </div>
         </div>
       </div>
