@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/daredevil/static/css/main.94c6577b.css",
-    "main.js": "/daredevil/static/js/main.8a347de4.js",
+    "main.css": "/daredevil/static/css/main.da7afca6.css",
+    "main.js": "/daredevil/static/js/main.ca3629e7.js",
     "static/js/787.40aaeb94.chunk.js": "/daredevil/static/js/787.40aaeb94.chunk.js",
     "static/media/matt-profile.jpg": "/daredevil/static/media/matt-profile.45995829e56fd69a4d5a.jpg",
     "index.html": "/daredevil/index.html",
-    "main.94c6577b.css.map": "/daredevil/static/css/main.94c6577b.css.map",
-    "main.8a347de4.js.map": "/daredevil/static/js/main.8a347de4.js.map",
+    "main.da7afca6.css.map": "/daredevil/static/css/main.da7afca6.css.map",
+    "main.ca3629e7.js.map": "/daredevil/static/js/main.ca3629e7.js.map",
     "787.40aaeb94.chunk.js.map": "/daredevil/static/js/787.40aaeb94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94c6577b.css",
-    "static/js/main.8a347de4.js"
+    "static/css/main.da7afca6.css",
+    "static/js/main.ca3629e7.js"
   ]
 }
