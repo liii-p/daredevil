@@ -3,9 +3,11 @@ import styles from "./Modal.module.scss";
 // import "../Assets/partials/_fonts.scss";
 
 const Modal = (props) => {
-  if (!props.show) {
+  if (!props.openModal) {
     return null;
   }
+
+  console.log("Modalling");
 
   return (
     <div className={styles.modal} onClick={props.onClose}>

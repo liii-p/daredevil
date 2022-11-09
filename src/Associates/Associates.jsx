@@ -8,10 +8,10 @@ const Associates = () => {
   return (
     <div className={styles.associates}>
       <h2>Daredevil and Associates</h2>
-      <h3>
+      <h4>
         Click a name below for more info. (Only foggy's info is functional so
         far)
-      </h3>
+      </h4>
       <section className={styles.associates__allies}>
         <h3>The Allies</h3>
 
@@ -26,11 +26,11 @@ const Associates = () => {
               src="https://sportshub.cbsistatic.com/i/2021/03/17/08a75f69-5e13-4de0-86c4-dc8904d7616c/foggy-nelson-daredevil-1150287.jpg"
               width="100%"
             />
-            <p>This is about Foggy</p>
+            <p>This is about Foggy!</p>
           </Modal>
         </div>
         <div>
-          {/* <p onClick={() => setOpenModal(true)}>Karen Page</p>
+          {/* <p>Karen Page</p>
           <Modal
             title="Karen Page"
             onClose={() => setOpenModal(false)}
@@ -40,19 +40,19 @@ const Associates = () => {
           </Modal> */}
         </div>
         <div>
-          <p onClick={() => setOpenModal(true)}>Stick</p>
+          <p>Stick</p>
         </div>
         <div>
-          <p onClick={() => setOpenModal(true)}>Jessica Jones</p>
+          <p>Jessica Jones</p>
         </div>
         <div>
-          <p onClick={() => setOpenModal(true)}>Luke Cage</p>
+          <p>Luke Cage</p>
         </div>
         <div>
-          <p onClick={() => setOpenModal(true)}>Black Widow (comics)</p>
+          <p>Black Widow (comics)</p>
         </div>
         <div>
-          <p onClick={() => setOpenModal(true)}>Spider-Man (comics)</p>
+          <p>Spider-Man (comics)</p>
         </div>
       </section>
       <section className={styles.associates__enemies}>
