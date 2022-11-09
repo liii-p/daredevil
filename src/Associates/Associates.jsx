@@ -8,6 +8,10 @@ const Associates = () => {
   return (
     <div className={styles.associates}>
       <h2>Daredevil and Associates</h2>
+      <h3>
+        Click a name below for more info. (Only foggy's info is functional so
+        far)
+      </h3>
       <section className={styles.associates__allies}>
         <h3>The Allies</h3>
 
